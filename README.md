@@ -10,7 +10,7 @@ that you can put anywhere in your path.
 
 ## 准备repo
 
-git clone http://gitlab.xpaas.lenovo.com/fangjj2/repo-tool.git
+git clone https://gitlab.xpaas.lenovo.com/fangjj2/repo-tool.git
 
 cd repo-tool
 
@@ -19,7 +19,7 @@ cp repo /usr/local/bin/repo
 chmod a+x /usr/local/bin/repo
 
 ## 初始化仓库方法
-repo init -u http://gitlab.xpaas.lenovo.com/fangjj2/repo-manifest -m default.xml
+repo init -u https://gitlab.xpaas.lenovo.com/fangjj2/repo-manifest -m Default_RR13.xml
 
 ## Checkout源码
 repo sync
