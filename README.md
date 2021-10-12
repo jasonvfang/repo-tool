@@ -10,7 +10,7 @@ that you can put anywhere in your path.
 
 ## 准备repo
 
-git clone git@10.240.219.129:lnv-openbmc/openbmc-lnv/lnv-devbranch/repo-tool.git
+git clone http://gitlab.xpaas.lenovo.com/fangjj2/repo-tool.git
 
 cd repo-tool
 
@@ -18,11 +18,8 @@ cp repo /usr/local/bin/repo
 
 chmod a+x /usr/local/bin/repo
 
-## 初始化仓库方法1 (http)
-repo init -u http://10.240.219.129/lnv-openbmc/openbmc-lnv/lnv-devbranch/repo-manifest -m default.xml
-
-## 初始化仓库方法2（git)
-repo init --repo-url git@10.240.219.129:lnv-openbmc/openbmc-lnv/lnv-devbranch/repo-tool.git -u git@10.240.219.129:lnv-openbmc/openbmc-lnv/lnv-devbranch/repo-manifest.git -m default_with_git.xml
+## 初始化仓库方法
+repo init -u http://gitlab.xpaas.lenovo.com/fangjj2/repo-manifest -m default.xml
 
 ## Checkout源码
 repo sync
