@@ -19,7 +19,7 @@ cp repo /usr/local/bin/repo
 chmod a+x /usr/local/bin/repo
 
 ## 初始化仓库方法
-repo init -u https://gitlab.xpaas.lenovo.com/fangjj2/repo-manifest -m Default_RR13.xml
+repo init -u https://gitlab.xpaas.lenovo.com/fangjj2/repo-manifest -m SE550V2.xml
 
 ## Checkout源码
 repo sync -j 4
