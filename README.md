@@ -22,4 +22,4 @@ chmod a+x /usr/local/bin/repo
 repo init -u https://gitlab.xpaas.lenovo.com/fangjj2/repo-manifest -m Default_RR13.xml
 
 ## Checkout源码
-repo sync
+repo sync -j 4
