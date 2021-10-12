@@ -141,7 +141,7 @@ if __name__ == '__main__':
 #
 REPO_URL = os.environ.get('REPO_URL', None)
 if not REPO_URL:
-  REPO_URL = 'http://10.240.219.129/lnv-openbmc/openbmc-lnv/lnv-devbranch/repo-tool'
+  REPO_URL = 'https://gitlab.xpaas.lenovo.com/fangjj2/repo-tool'
 REPO_REV = os.environ.get('REPO_REV')
 if not REPO_REV:
   REPO_REV = 'master'
