@@ -22,4 +22,4 @@ chmod a+x /usr/local/bin/repo
 repo init -u https://gitlab.xpaas.lenovo.com/fangjj2/repo-manifest -m SE550V2.xml
 
 ## Checkout源码
-repo sync -j 4
+repo sync
