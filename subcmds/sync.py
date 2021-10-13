@@ -45,7 +45,7 @@ except ImportError:
     return (256, 256)
 
 import event_log
-from git_command import git_require
+from git_command import git_require, GitCommand
 from git_config import GetUrlCookieFile
 from git_refs import R_HEADS, HEAD
 import git_superproject
@@ -563,6 +563,9 @@ later is required to fix a server side protocol bug.
 
     if not success:
       print('error: Cannot checkout %s' % (project.name), file=sys.stderr)
+    __cmd = ['lfs']
+    __cmd.append('pull')
+    GitCommand(project, __cmd)
     finish = time.time()
     return (success, project, start, finish)
 
