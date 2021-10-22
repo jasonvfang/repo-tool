@@ -10,7 +10,6 @@ that you can put anywhere in your path.
 
 ## 准备repo (首次未安装repo时需要)
 
-git clone https://gitlab.xpaas.lenovo.com/fangjj2/repo-tool.git
 
 cd repo-tool
 
@@ -20,7 +19,7 @@ chmod a+x /usr/local/bin/repo
 
 ## 初始化仓库方法
 
-repo init -u https://gitlab.xpaas.lenovo.com/fangjj2/repo-manifest -m SE550V2.xml
+repo init -u https://x.x.x.x -m test.xml
 
 ## 同步所有源码
 
